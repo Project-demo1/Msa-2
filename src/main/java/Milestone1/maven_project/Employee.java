@@ -1,7 +1,7 @@
 package Milestone1.maven_project;
 
 public class Employee {
-	private int id;
+	private int  id;
 	private String name;
 	private int salary;
 	private int age;
