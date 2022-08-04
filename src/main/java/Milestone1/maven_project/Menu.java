@@ -5,16 +5,16 @@ public class Menu {
     public static void main(String[] args) {
     	//adding values to ArrayList
         List<Employee> employeeList=new ArrayList<>();
-        employeeList.add(new Employee(1,"AA",10000,14));
-        employeeList.add(new Employee(2,"BB",20000,35));
-        employeeList.add(new Employee(3,"CC",30000,30));
-        employeeList.add(new Employee(4,"DD",40000,24));
-        employeeList.add(new Employee(5,"EE",50000,29));
-        employeeList.add(new Employee(6,"FF",60000,26));
-        employeeList.add(new Employee(7,"GG",70000,22));
-        employeeList.add(new Employee(8,"HH",80000,28));
-        employeeList.add(new Employee(9,"II",90000,21));
-        employeeList.add(new Employee(10,"JJ",100000,30));
+        employeeList.add(new Employee(1,"Shefali",20000,17));
+        employeeList.add(new Employee(2,"Bunny",40000,35));
+        employeeList.add(new Employee(3,"Mayank",60000,20));
+        employeeList.add(new Employee(4,"Dimple",40000,24));
+        employeeList.add(new Employee(5,"Ramma",70000,29));
+        employeeList.add(new Employee(6,"Rajesh",80000,26));
+        employeeList.add(new Employee(7,"Giresh",30000,22));
+        employeeList.add(new Employee(8,"Heena",20000,28));
+        employeeList.add(new Employee(9,"Ishita",50000,21));
+        employeeList.add(new Employee(10,"shilpa",120000,30));
         EmployeeList employeeList1 = new EmployeeList(employeeList);
         System.out.println("Enter key");
         Scanner s=new Scanner(System.in);
